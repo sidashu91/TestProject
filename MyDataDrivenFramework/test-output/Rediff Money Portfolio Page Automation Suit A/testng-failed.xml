@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Rediff Money Portfolio Page Automation Suit A]">
+  <test thread-count="5" name="Adding Stocks(failed)">
+    <classes>
+      <class name="com.sampleddf.core.ddf.mystocks.StockPortfolio">
+        <methods>
+          <include name="Emailingini"/>
+          <include name="QuitBrowser"/>
+          <include name="BrowserTest"/>
+          <include name="Emailing"/>
+          <include name="StockGrid"/>
+        </methods>
+      </class> <!-- com.sampleddf.core.ddf.mystocks.StockPortfolio -->
+    </classes>
+  </test> <!-- Adding Stocks(failed) -->
+</suite> <!-- Failed suite [Rediff Money Portfolio Page Automation Suit A] -->
