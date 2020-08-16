@@ -29,7 +29,7 @@ public class AddStocks extends BaseTestcase
 	@AfterTest()
 	public void QuitBrowser() throws InterruptedException 
 	{
-		System.out.println("In After Test AddStocks");
+		System.out.println("In After Test ---- AddStocks");
 		wait(3);
 		LogoutAUT();
 		CloseBrowser();	
