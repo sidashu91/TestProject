@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rediff Login Page Automation">	
+	<test name="Link Calculations on Rediff">
+	    <classes>
+	        <class name="redifftestcases.linkcalc" ></class>  
+	    </classes>
+	</test>	
+	<test name="CheckBox Test">
+	    <classes>
+	        <class name="redifftestcases.checkboxtest" ></class>  
+	    </classes>
+	</test>	
+</suite>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rediff Login Page Automation]">
+  <test name="Entering Credentials(failed)">
+    <classes>
+      <class name="redifftestcases.linkcalc">
+        <methods>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- redifftestcases.linkcalc -->
+      <class name="redifftestcases.LoginCred">
+        <methods>
+          <include name="LaunchURL"/>
+          <include name="EnterCred"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- redifftestcases.LoginCred -->
+      <class name="redifftestcases.checkboxtest">
+        <methods>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- redifftestcases.checkboxtest -->
+    </classes>
+  </test> <!-- Entering Credentials(failed) -->
+  <test name="Link Calculations on Rediff(failed)">
+    <classes>
+      <class name="redifftestcases.linkcalc">
+        <methods>
+          <include name="LinkCalc"/>
+          <include name="LaunchURL"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- redifftestcases.linkcalc -->
+      <class name="redifftestcases.LoginCred">
+        <methods>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- redifftestcases.LoginCred -->
+      <class name="redifftestcases.checkboxtest">
+        <methods>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- redifftestcases.checkboxtest -->
+    </classes>
+  </test> <!-- Link Calculations on Rediff(failed) -->
+  <test name="CheckBox Test(failed)">
+    <classes>
+      <class name="redifftestcases.linkcalc">
+        <methods>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- redifftestcases.linkcalc -->
+      <class name="redifftestcases.LoginCred">
+        <methods>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- redifftestcases.LoginCred -->
+      <class name="redifftestcases.checkboxtest">
+        <methods>
+          <include name="LaunchURL"/>
+          <include name="CheckboxTest"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- redifftestcases.checkboxtest -->
+    </classes>
+  </test> <!-- CheckBox Test(failed) -->
+</suite> <!-- Failed suite [Rediff Login Page Automation] -->

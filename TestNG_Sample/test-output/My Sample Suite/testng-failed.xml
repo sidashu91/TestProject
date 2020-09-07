@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Sample Suite]">
+  <test thread-count="5" name="Learning assertions(failed)">
+    <classes>
+      <class name="tests.AppReg">
+        <methods>
+          <include name="register"/>
+        </methods>
+      </class> <!-- tests.AppReg -->
+    </classes>
+  </test> <!-- Learning assertions(failed) -->
+  <test thread-count="5" name="Application Login(failed)">
+    <classes>
+      <class name="tests.ApplicationTests">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforetest"/>
+          <include name="OpenURL"/>
+          <include name="beforemethod"/>
+          <include name="OpenBrowser"/>
+          <include name="beforesuite"/>
+          <include name="aftertest"/>
+          <include name="Logout"/>
+          <include name="Login"/>
+          <include name="aftersuite"/>
+        </methods>
+      </class> <!-- tests.ApplicationTests -->
+    </classes>
+  </test> <!-- Application Login(failed) -->
+</suite> <!-- Failed suite [My Sample Suite] -->

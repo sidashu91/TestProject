@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Rediff Login Page Automation (0)]">
+  <test thread-count="5" name="Entering Credentials(failed)">
+    <classes>
+      <class name="redifftestcases.LoginCred">
+        <methods>
+          <include name="LaunchURL"/>
+          <include name="CloseBrowser"/>
+          <include name="EnterCred"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- redifftestcases.LoginCred -->
+    </classes>
+  </test> <!-- Entering Credentials(failed) -->
+  <test thread-count="5" name="Link Calculations on Rediff(failed)">
+    <classes>
+      <class name="redifftestcases.linkcalc">
+        <methods>
+          <include name="LinkCalc"/>
+          <include name="LaunchURL"/>
+          <include name="CloseBrowser"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- redifftestcases.linkcalc -->
+    </classes>
+  </test> <!-- Link Calculations on Rediff(failed) -->
+  <test thread-count="5" name="CheckBox Test(failed)">
+    <classes>
+      <class name="redifftestcases.checkboxtest">
+        <methods>
+          <include name="LaunchURL"/>
+          <include name="CloseBrowser"/>
+          <include name="CheckboxTest"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- redifftestcases.checkboxtest -->
+    </classes>
+  </test> <!-- CheckBox Test(failed) -->
+</suite> <!-- Failed suite [Rediff Login Page Automation (0)] -->

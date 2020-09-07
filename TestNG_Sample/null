@@ -1,0 +1,22 @@
+1523250570266	geckodriver	INFO	geckodriver 0.19.1
+1523250570281	geckodriver	INFO	Listening on 127.0.0.1:45761
+1523250570795	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Tejas\\AppData\\Local\\Temp\\rust_mozprofile.9zZPTs5hMS4d"
+Unable to read VR Path Registry from C:\Users\Tejas\AppData\Local\openvr\openvrpaths.vrpath
+1523250572243	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Tejas\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Tejas\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 4224] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14612] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Tejas\AppData\Local\openvr\openvrpaths.vrpath
+1523250576054	Marionette	INFO	Listening on port 58796
+1523250576116	Marionette	INFO	Listening on port 58796
+1523250576542	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523250576618	Marionette	DEBUG	loaded listener.js
+1523250576669	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523250577281	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523250577281	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523250577353	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mail.rediff.com/cgi-bin/login.cgi"
+1523250578209	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://im.rediff.com/template/meta/lgnad_new_1.htm?purl1=1"
+1523250578540	Marionette	DEBUG	Received DOM event "pageshow" for "https://im.rediff.com/template/meta/lgnad_new_1.htm?purl1=1"
+1523250578557	Marionette	DEBUG	Received DOM event "pageshow" for "https://mail.rediff.com/cgi-bin/login.cgi"
+1523250583771	Marionette	INFO	New connections will no longer be accepted
