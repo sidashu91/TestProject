@@ -1,0 +1,70 @@
+{"items":[  {
+	"itemNumber" : 10040331,
+	"name" : "COFFEE CAKE",
+	"isFrozen" : true,
+	"isCrafted" : false,
+	"departmentNumber" : 40,
+	"departmentName" : "Bakery",
+	"uoms" : [ {
+		"code" : "CS",
+		"name" : "Case",
+		"price" : 16.50,
+		"quantity" : 15.0,
+		"isOrderable" : true
+	}, {
+		"code" : "EA",
+		"name" : "Each",
+		"price" : 1.10,
+		"quantity" : 1,
+		"isOrderable" : true
+	}, {
+		"code" : "PLT",
+		"quantity" : 1226.0,
+		"price" : 1346.6,
+		"name" : "Pallet",
+		"isOrderable" : false
+	} ]
+}, 
+{
+	"itemNumber" : 10040211,
+	"name" : "PANINI",
+	"isFrozen" : false,
+	"isCrafted" : false,
+	"departmentNumber" : 41,
+	"departmentName" : "SANDWICH",
+	"uoms" : [ {
+		"code" : "CS",
+		"name" : "Case",
+		"price" : 21.9,
+		"quantity" : 10.0,
+		"isOrderable" : false
+	}, {
+		"code" : "EA",
+		"name" : "Each",
+		"price" : 2.19,
+		"quantity" : 1,
+		"isOrderable" : true
+	} ]
+}, 
+{
+	"itemNumber" : 100807132,
+	"name" : "CAKE POP - BROWNIE",
+	"isFrozen" : true,
+	"isCrafted" : false,
+	"departmentNumber" : 40,
+	"departmentName" : "Bakery",
+	"uoms" : [ {
+		"code" : "EA",
+		"name" : "Each",
+		"price" : 2.20,
+		"quantity" : 1,
+		"isOrderable" : true
+	}, {
+		"code" : "PLT",
+		"quantity" : 10260,
+		"price" : 22572,
+		"name" : "Pallet",
+		"isOrderable" : true
+	} ]
+}
+ ]}
