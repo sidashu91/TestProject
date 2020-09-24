@@ -17,9 +17,9 @@ public class GoogleTest {
 	public void setup () 
 	{
 		
-		//set property
+		//set property.....
 		
-
+		
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//lib//chromedriver.exe");
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
