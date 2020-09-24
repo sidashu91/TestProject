@@ -17,7 +17,7 @@ public class GoogleTest {
 	public void setup () 
 	{
 		
-		//set propertySidd
+		//set property
 		
 
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//lib//chromedriver.exe");
