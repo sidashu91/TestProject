@@ -6,7 +6,7 @@ import java.util.Set;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class windowhandlepopup {
+public class WindowHandles {
 
 	public static void main(String[] args) throws InterruptedException {
 		
