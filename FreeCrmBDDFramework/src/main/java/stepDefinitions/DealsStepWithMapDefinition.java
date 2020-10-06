@@ -18,7 +18,7 @@ import junit.framework.Assert;
 
 //data table with maps : for parameterization of test cases
 
-public class DealsStepWithMapDefinition {
+public class DealsStepWithMapDefinition { 
 
 	WebDriver driver;
 
