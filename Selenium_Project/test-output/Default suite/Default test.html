@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jul 11 13:08:45 IST 2020</td>
+<td>Started on:</td><td>Tue Oct 06 13:31:48 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>2 seconds (2990 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (374 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,63 +75,18 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='parameterTest_TestNg.ParameterTest.yahooLogintest()'><b>yahooLogintest</b><br>Test class: parameterTest_TestNg.ParameterTest<br>Parameters: chrome, QA, https://login.yahoo.com/, test@yahoo.com</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 81
+<td title='basicscripts.WindowHandle_ParentWindow.TestPopUp()'><b>TestPopUp</b><br>Test class: basicscripts.WindowHandle_ParentWindow</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
-System info: host: &apos;LAPTOP-61LDMJ7H&apos;, ip: &apos;192.168.0.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00E75E93+2449043]
-	Ordinal0 [0x00DA8281+1606273]
-	Ordinal0 [0x00C9F889+522377]
-	Ordinal0 [0x00C305F3+67059]
-	Ordinal0 [0x00C2CD92+52626]
-	Ordinal0 [0x00C4C127+180519]
-	Ordinal0 [0x00C4BF2D+180013]
-	Ordinal0 [0x00C49E5B+171611]
-	Ordinal0 [0x00C31DD8+73176]
-	Ordinal0 [0x00C32E50+77392]
-	Ordinal0 [0x00C32DE9+77289]
-	Ordinal0 [0x00DBD7F7+1693687]
-	GetHandleVerifier [0x00F14576+522742]
-	GetHandleVerifier [0x00F142B4+522036]
-	GetHandleVerifier [0x00F29587+608775]
-	GetHandleVerifier [0x00F14DE6+524902]
-	Ordinal0 [0x00DB5BDC+1661916]
-	Ordinal0 [0x00DBF15B+1700187]
-	Ordinal0 [0x00DBF2C3+1700547]
-	Ordinal0 [0x00DD5135+1790261]
-	BaseThreadInitThunk [0x75AF6359+25]
-	RtlGetAppContainerNamedObjectPath [0x76EE7C24+228]
-	RtlGetAppContainerNamedObjectPath [0x76EE7BF4+180]
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at parameterTest_TestNg.ParameterTest.yahooLogintest(ParameterTest.java:20)
+System info: host: &apos;LAPTOP-61LDMJ7H&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:100)
+	at java.util.Optional.orElseGet(Unknown Source)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at basicscripts.WindowHandle_ParentWindow.TestPopUp(WindowHandle_ParentWindow.java:15)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -156,63 +111,18 @@ remote stacktrace: Backtrace:
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-</pre></div><a href='#' onClick='toggleBox("stack-trace501705927", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace501705927'><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 81
+</pre></div><a href='#' onClick='toggleBox("stack-trace149047107", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace149047107'><pre>org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
-System info: host: &apos;LAPTOP-61LDMJ7H&apos;, ip: &apos;192.168.0.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00E75E93+2449043]
-	Ordinal0 [0x00DA8281+1606273]
-	Ordinal0 [0x00C9F889+522377]
-	Ordinal0 [0x00C305F3+67059]
-	Ordinal0 [0x00C2CD92+52626]
-	Ordinal0 [0x00C4C127+180519]
-	Ordinal0 [0x00C4BF2D+180013]
-	Ordinal0 [0x00C49E5B+171611]
-	Ordinal0 [0x00C31DD8+73176]
-	Ordinal0 [0x00C32E50+77392]
-	Ordinal0 [0x00C32DE9+77289]
-	Ordinal0 [0x00DBD7F7+1693687]
-	GetHandleVerifier [0x00F14576+522742]
-	GetHandleVerifier [0x00F142B4+522036]
-	GetHandleVerifier [0x00F29587+608775]
-	GetHandleVerifier [0x00F14DE6+524902]
-	Ordinal0 [0x00DB5BDC+1661916]
-	Ordinal0 [0x00DBF15B+1700187]
-	Ordinal0 [0x00DBF2C3+1700547]
-	Ordinal0 [0x00DD5135+1790261]
-	BaseThreadInitThunk [0x75AF6359+25]
-	RtlGetAppContainerNamedObjectPath [0x76EE7C24+228]
-	RtlGetAppContainerNamedObjectPath [0x76EE7BF4+180]
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at parameterTest_TestNg.ParameterTest.yahooLogintest(ParameterTest.java:20)
+System info: host: &apos;LAPTOP-61LDMJ7H&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:100)
+	at java.util.Optional.orElseGet(Unknown Source)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at basicscripts.WindowHandle_ParentWindow.TestPopUp(WindowHandle_ParentWindow.java:15)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -238,8 +148,8 @@ remote stacktrace: Backtrace:
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 </pre></div></td>
-<td>2</td>
-<td>parameterTest_TestNg.ParameterTest@66d2e7d9</td></tr>
+<td>0</td>
+<td>basicscripts.WindowHandle_ParentWindow@6ea12c19</td></tr>
 </table><p>
 </body>
 </html>
