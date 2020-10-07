@@ -4,7 +4,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class jspopup {
+public class Alert_popup {
 
 	public static void main(String[] args) throws InterruptedException {
 		
