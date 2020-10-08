@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test NG Session Test Automation Suite ">
+<test verbose= "2" name= "Different Testing Features Test">
+<classes>
+<class name ="xsltReports.ReportGeneration.java" />
+</classes>
+</test>
+</suite>
