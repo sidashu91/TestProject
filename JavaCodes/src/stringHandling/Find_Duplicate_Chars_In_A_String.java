@@ -1,3 +1,5 @@
+package stringHandling;
+
 public class Find_Duplicate_Chars_In_A_String {  
      public static void main(String[] args) {  
         String string1 = "Great responsibility";  
